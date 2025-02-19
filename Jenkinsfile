@@ -8,7 +8,6 @@ pipeline {
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/miamioh-gaddiehl/225-lab3-1.git'                   // <------change this
         KUBECONFIG = credentials('gaddiehl-225')                                             // <------change this
-        KUBECONFIG = credentials('gaddiehl-225')                                             // <------change this
     }
 
     stages {
